@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  margin: 0;
+  background-color: #fdede0;
+  padding: 50px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+span {
+  font-size: 35px;
+  font-weight: 1000px;
+  padding-left: 20px;
+}
+.half1 > .grid > .box > button {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+  background-color: white;
+  width: fit-content;
+  margin-left: 15px;
+  position: relative;
+  top: -10px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.half1 > .grid > .box > .note > .price {
+  color: orangered;
+  font-weight: 700;
+}
+.all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.grid {
+  margin: 12px;
+  gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 150px;
+
+  padding: 25px;
+}
+.box > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+img:hover {
+  border: 2.5px orangered solid;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  transition: 0.1s all ease;
+}
+.half1 > .grid > .box > button:hover {
+  background: orangered;
+  color: white;
+  transition: 0.5s all ease;
+}
+
+.box > .note > .h {
+  font-size: larger;
+  color: grey;
+  font-weight: 600;
+}
+
+.half2 {
+  background: whitesmoke;
+  height: fit-content;
+  padding: 15px 25px 15px 25px;
+  border-radius: 15px;
+}
+
+.title {
+  padding-bottom: 20px;
+  color: orangered;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.second {
+  padding-bottom: 15px;
+  padding-top: 10px;
+  border-bottom: 1px grey solid;
+}
+
+.first {
+  padding-bottom: 15px;
+}
+
+.fit {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.order,
+.vegan {
+  padding-bottom: 10px;
+}
+
+.cart > .order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.times {
+  color: orangered;
+  font-weight: 700;
+}
+.vegan {
+  background: #fdede0;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.cart > .order > button {
+  border-radius: 15px;
+  border: none;
+  padding: 8px 0px 8px 0px;
+  background: orangered;
+  color: white;
+}
+.cart > .order > .can {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding-bottom: 20px;
+}
+
+.cart > .order > .can > .pricee {
+  font-weight: 800;
+}
